@@ -50,9 +50,7 @@ Open "OCRTTS2.py" and edit config (ip, username, password)
 Required Process(PC)
 -------------
 
-Install OpenSSH Server 
-
-                      https://www.youtube.com/watch?v=0G1Qh-_jBTQ
+Install OpenSSH Server : https://www.youtube.com/watch?v=0G1Qh-_jBTQ
                       
 Download "gTTS.py" to "C:\users\username"
 
