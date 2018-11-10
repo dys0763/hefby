@@ -52,6 +52,6 @@ Install OpenSSH Server
 
                       https://www.youtube.com/watch?v=0G1Qh-_jBTQ
                       
-Download "gTTS.py" to C:\users\"username"Download gTTS.py in C:\users\username
+Download "gTTS.py" to C:\users\username
 
 Intall tesseract-OCR
