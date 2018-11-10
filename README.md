@@ -56,13 +56,12 @@ Install OpenSSH Server
                       
 Download "gTTS.py" to "C:\users\username"
 
-Install tesseract-OCR
-
-                     https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows
+Install tesseract-OCR : https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows
                      
 Add "C:\Program Files (x86)\Tesseract-OCR" at PATH
 
 Download "kor.traineddata" at "C:\Program Files (x86)\Tesseract-OCR\tessdata"
 
 Install gTTS
-                     pip3 install gTTS
+
+                        pip3 install gTTS
