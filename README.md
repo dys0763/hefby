@@ -60,4 +60,4 @@ Intall tesseract-OCR
                      
 Add "C:\Program Files (x86)\Tesseract-OCR" at PATH
 
-Download kor.traineddata at "C:\Program Files (x86)\Tesseract-OCR\tessdata"
+Download "kor.traineddata" at "C:\Program Files (x86)\Tesseract-OCR\tessdata"
