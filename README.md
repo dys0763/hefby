@@ -5,6 +5,8 @@ INTRODUCTION
 
 hefby is a system that helps the visually impaired. It recognizes letters on paper then speaks recognized letters.
 
+If you want to understand this system, "function abstract.pdf" could help you.
+
 Before you run this system, you need to complete tasks below.
 
 --------------------------------
@@ -27,7 +29,7 @@ Raspberry Pi
 
 330ohm, 1.1kohm resistor
 
-                    please see circuit.png to understand how to connect
+                    please see "circuit.png" to understand how to connect
 
 Raspberry Pi camera module
 
