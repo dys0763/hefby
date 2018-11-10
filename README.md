@@ -12,7 +12,7 @@ Before you run this system, you need to complete tasks below.
 Required Libraries
 --------
 
-OpenCV, numpy, pygame, paramiko, 
+OpenCV, numpy, pygame, paramiko
 
 --------------------------------
 
@@ -44,7 +44,7 @@ Required Process
                     
 Open "OCRTTS2.py" and edit config (ip, username, password)
                   
-                  
+--------------------------------------------                  
 Required Process(PC)
 -------------
 
@@ -52,6 +52,12 @@ Install OpenSSH Server
 
                       https://www.youtube.com/watch?v=0G1Qh-_jBTQ
                       
-Download "gTTS.py" to C:\users\username
+Download "gTTS.py" to "C:\users\username"
 
 Intall tesseract-OCR
+
+                     https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows
+                     
+Add "C:\Program Files (x86)\Tesseract-OCR" at PATH
+
+Download kor.traineddata at "C:\Program Files (x86)\Tesseract-OCR\tessdata"
