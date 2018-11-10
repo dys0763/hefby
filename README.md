@@ -31,6 +31,8 @@ Raspberry Pi
 
                     please see "circuit.png" to understand how to connect
 
+330, 1.1k ohm resistors are external resistors, 50 ohm resistor in "circuit.png" is internal resistor of earphone.
+
 Raspberry Pi camera module
 
 ---------------------------------
