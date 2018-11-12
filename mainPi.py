@@ -14,7 +14,7 @@ def main_process(LANG='kor'):
     pygame.mixer.init()
     src_points, resolution, x = find_paper()
     if x:
-        pygame.mixer.music.load('/home/pi/capstonefinal/finded.mp3')
+        pygame.mixer.music.load('/home/pi/hefby/finded.mp3')
         pygame.mixer.music.play()
         img = capture_paper(src_points, resolution)
         #os.system("xdg-open HRimage.jpg")
@@ -27,24 +27,24 @@ def main_process(LANG='kor'):
             cv2.destroyAllWindows()
             try:
                 ocr_tts('processed_img.jpg')
-                pygame.mixer.music.load('/home/pi/capstonefinal/speech.mp3')
+                pygame.mixer.music.load('/home/pi/hefby/speech.mp3')
                 pygame.mixer.music.play()
             except:
                 print('Letter Recognizing Failed')
-                pygame.mixer.music.load('/home/pi/capstonefinal/failtts.mp3')
+                pygame.mixer.music.load('/home/pi/hefby/failtts.mp3')
                 pygame.mixer.music.play()
         except:
             print('Image Processing Failed')
-            pygame.mixer.music.load('/home/pi/capstonefinal/failtts.mp3')
+            pygame.mixer.music.load('/home/pi/hefby/failtts.mp3')
             pygame.mixer.music.play()
     else:
-        pygame.mixer.music.load('/home/pi/capstonefinal/failpaper.mp3')
+        pygame.mixer.music.load('/home/pi/hefby/failpaper.mp3')
         pygame.mixer.music.play()
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(40, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-pygame.mixer.music.load('/home/pi/capstonefinal/ready.mp3') #notice has been prepared
+pygame.mixer.music.load('/home/pi/hefby/ready.mp3') #notice has been prepared
 pygame.mixer.music.play()
 
 while True:
@@ -53,7 +53,7 @@ while True:
     if not button_input:
         print('Button Pushed')
         
-        pygame.mixer.music.load('/home/pi/capstonefinal/paper.mp3') #notice has been started
+        pygame.mixer.music.load('/home/pi/hefby/paper.mp3') #notice has been started
         pygame.mixer.music.play()
         
         start_time = time.time()
