@@ -64,4 +64,4 @@ Download "kor.traineddata" at "C:\Program Files (x86)\Tesseract-OCR\tessdata"
 
 Install gTTS
 
-                        pip3 install gTTS
+                        sudo pip3 install gTTS
